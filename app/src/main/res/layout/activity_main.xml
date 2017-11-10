@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.spsu.fmf.graph.MainActivity">
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graph"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/activity_main_greetings"
+        android:textSize="24sp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/graph"
+        app:layout_anchorGravity="bottom|end"
+        app:useCompatPadding="true"
+        app:fabSize="normal"
+        android:clickable="true"
+        android:src="@drawable/ic_add"/>
+
+</android.support.design.widget.CoordinatorLayout>

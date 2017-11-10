@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Graph</string>
+
+
+    <string name="activity_main_greetings">Сперва загрузите точки…</string>
+
+
+    <string name="showcase_begin_work_with">Для начала работы загрузите файл с точками</string>
+
+
+    <string name="action_ok">OK</string>
+    <string name="action_yes">ДА</string>
+    <string name="action_no">НЕТ</string>
+    <string name="action_cancel">ОТМЕНА</string>
+    <string name="action_understood">ПОНЯЛ</string>
+</resources>
